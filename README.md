@@ -11,11 +11,4 @@ WeatherApp allows users to:<br>
 • View temperature (°C), humidity, condition description<br>
 • See a weather emoji based on condition<br>
 • Open an animated “About” modal<br>
-
-The app demonstrates:
-• API integration
-• Async/await in JavaScript
-• DOM manipulation
-• Error handling
-• Responsive UI design
 --------------------------------------------------------------------------------------------------------------------------------------
