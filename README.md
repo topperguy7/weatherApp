@@ -24,3 +24,14 @@ WeatherApp/<br>
 ├── style.css<Br>
 └── script.js<br>
 <hr>
+🚀 How to Run the Project
+
+Clone the repository:
+
+git clone https://github.com/your-username/weatherApp.git
+
+Open the project folder:
+
+cd weatherApp
+
+Open index.html in your browser.
