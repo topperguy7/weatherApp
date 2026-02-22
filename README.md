@@ -13,14 +13,9 @@ WeatherApp allows users to:<br>
 • Open an animated “About” modal<br>
 
 The app demonstrates:
-
-API integration
-
-Async/await in JavaScript
-
-DOM manipulation
-
-Error handling
-
-Responsive UI design
+• API integration
+• Async/await in JavaScript
+• DOM manipulation
+• Error handling
+• Responsive UI design
 --------------------------------------------------------------------------------------------------------------------------------------
