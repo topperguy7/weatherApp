@@ -12,8 +12,8 @@ WeatherApp allows users to:<br>
 • See a weather emoji based on condition<br>
 • Open an animated “About” modal<br>
 
-The app demonstrates:<br>
-• API integration<br>
+The App demonstrates:<br>
+• API Integration<br>
 • Async/await in JavaScript<br>
 • DOM manipulation<br>
 • Error handling<br>
