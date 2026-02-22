@@ -28,10 +28,10 @@ WeatherApp/<br>
 
 Clone the repository:
 
-git clone https://github.com/your-username/weatherApp.git
+    git clone https://github.com/your-username/weatherApp.git
 
 Open the project folder:
 
-cd weatherApp
+    cd weatherApp
 
 Open index.html in your browser.
