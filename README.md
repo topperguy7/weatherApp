@@ -19,8 +19,8 @@ WeatherApp allows users to:<br>
 • OpenWeatherMap API
 <hr>
 WeatherApp/<br>
-│
-├── index.html      # Main structure of the application<br>
-├── style.css       # Styling and responsive design<Br>
-└── script.js       # API logic and DOM manipulation<Br>
+│<br>
+├── index.html<br>
+├── style.css<Br>
+└── script.js<br>
 <hr>
