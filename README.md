@@ -12,10 +12,15 @@ WeatherApp allows users to:<br>
 • See a weather emoji based on condition<br>
 • Open an animated “About” modal<br>
 
-The App demonstrates:<br>
-• API Integration<br>
-• Async/await in JavaScript<br>
-• DOM manipulation<br>
-• Error handling<br>
-• Responsive UI design<br>
+The app demonstrates:
+
+API integration
+
+Async/await in JavaScript
+
+DOM manipulation
+
+Error handling
+
+Responsive UI design
 --------------------------------------------------------------------------------------------------------------------------------------
