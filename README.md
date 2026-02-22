@@ -1,7 +1,7 @@
 🌦️ WeatherApp<br>
 
 A simple and responsive weather application that provides real-time weather information for any city using the OpenWeatherMap API.
---------------------------------------------------------------------------------------------------------------------------------------
+<hr>
 
 📌 Project Overview<br>
 
@@ -11,7 +11,8 @@ WeatherApp allows users to:<br>
 • View temperature (°C), humidity, condition description<br>
 • See a weather emoji based on condition<br>
 • Open an animated “About” modal<br>
---------------------------------------------------------------------------------------------------------------------------------------
+<hr>
+
 🛠️ Tech Stack
 
 • HTML5
