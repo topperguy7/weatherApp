@@ -2,7 +2,6 @@
 
 A simple and responsive weather application that provides real-time weather information for any city using the OpenWeatherMap API.
 <hr>
-
 📌 Project Overview<br>
 
 WeatherApp allows users to:<br>
@@ -12,11 +11,16 @@ WeatherApp allows users to:<br>
 • See a weather emoji based on condition<br>
 • Open an animated “About” modal<br>
 <hr>
-
 🛠️ Tech Stack
 
 • HTML5
 • CSS3
 • JavaScript (ES6+)
 • OpenWeatherMap API
+<hr>
+WeatherApp/
+│
+├── index.html      # Main structure of the application
+├── style.css       # Styling and responsive design
+└── script.js       # API logic and DOM manipulation
 <hr>
