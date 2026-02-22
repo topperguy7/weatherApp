@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="top-body">
+        <div class="main-body">
+            <div class="nav">
+                <h2>WeatherApp</h2>
+                <a id="about">About</a>
+            </div>
+            <div class="contain">
+                <input id="city" type="text" placeholder="enter city" required>
+                <button id="weather">get weather</button>
+                <h2 id="output1">City</h2>
+                <h2 id="output2">Temperature</h2>
+                <h2 id="output3">Humidity</h2>
+                <h2 id="output4">Condition</h2>
+                <h2 id="output5">Weather</h2>
+            </div>
+        </div>
+        <div class="modal" id="modal">
+            <h1>About WeatherApp</h1><br>
+            <span>
+                <h2 id="close">&times;</h2>
+            </span>
+            <p>
+                WeatherApp is a simple and responsive web application that provides 
+                real-time weather information for any city in the world.
+            </p><br>
+            <p>
+                It uses a free public Weather API to fetch live data such as 
+                temperature, weather condition, and atmospheric details.
+            </p><br>
+            <p>
+                The project is built using HTML, CSS, and JavaScript, 
+                focusing on API integration, DOM manipulation, and clean UI design.
+            </p><br>
+            <p>
+                This application demonstrates how client-side applications
+                communicate with external APIs to deliver dynamic data.
+            </p><br>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

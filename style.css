@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    font-family:  system-ui, sans-serif;
+}
+
+body{
+    margin: 14px;
+    height: calc(100vh - 28px);
+    background-color: rgb(151, 151, 151);
+}
+
+.top-body{
+    height: 97vh;
+    background-color: rgb(201, 201, 201);
+    border-radius: 20px;
+    padding: 4px;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.main-body{
+    margin: 10px 400px;
+}
+
+.nav{
+    margin: 20px;
+    padding: 20px;
+
+    font-size: 2rem;
+
+    border-radius: 50px;
+
+    display: flex;
+    justify-content: space-between;
+
+    background-color: greenyellow;
+    text-decoration: none;
+
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.nav h2{
+    cursor: pointer;
+    transition: ease 2s;
+}
+
+.nav h2:hover{
+    transform: rotateY(360deg) scale(1.02);
+}
+
+.nav a{
+    background-color: black;
+    color: white;
+
+    font-size: 2.2rem;
+    font-weight: bold;
+
+    padding: 4px 12px;
+    border-radius: 16px;
+
+    transition: ease 0.2s;
+    cursor: pointer;
+}
+
+.nav a:hover{
+    color: greenyellow;
+    transform: translateY(-3px);
+}
+
+.nav a:active{
+    color: white;
+    transform: translateY(0px) scale(.97);
+}
+
+.contain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+
+    margin: 100px 300px;
+    padding: 20px;
+
+    font-size: 2.6rem;
+
+    background: linear-gradient(rgb(52, 52, 182), rgb(180, 180, 139));
+    border-radius: 20px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.contain input{
+    background-color: greenyellow;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 4px 12px;
+
+    border: none;
+    border-radius: 20px;
+}
+
+.contain button{
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 6px 18px;
+
+    border-radius: 8px;
+    border: none;
+
+    background-color: black;
+    color: white;
+
+    transition: ease 0.2s;
+    cursor: pointer;
+}
+
+.contain button:active{
+    color: greenyellow;
+    transform: scale(.96);
+}
+
+.contain h2{
+    background-color: greenyellow;
+    padding: 0px 20px;
+
+    border-radius: 20px;
+}
+
+.modal{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%) scale(0.3);
+
+    width: 50%;
+    padding: 20px;
+    border-radius: 20px;
+
+    font-size: 1.6rem;
+
+    background-color: rgb(220, 220, 220);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    opacity: 0;
+    visibility: hidden;
+}
+
+@keyframes bounceIn {
+    0% {
+        transform: translate(-50%, -50%) scale(0.3);
+    }
+    60% {
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+    80% {
+        transform: translate(-50%, -50%) scale(0.95);
+    }
+    100% {
+        transform: translate(-50%, -50%) scale(1);
+    }
+}
+
+.modal.active {
+    visibility: visible;
+    opacity: 1;
+    animation: bounceIn 0.4s ease forwards;
+}
+
+.modal h1{
+    padding: 4px;
+    border-bottom: 2px solid black;
+}
+
+.modal p{
+    padding: 10px 40px;
+}
+
+.modal h2{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+
+    transition: ease 0.2s;
+    cursor: pointer;
+
+    margin-bottom: -30px;
+}
+
+.modal h2:active{
+    color: greenyellow;
+    transform: scale(.94)
+}
+
+@media (max-width: 768px) {
+
+    body {
+        margin: 8px;
+        height: auto;
+    }
+
+    .top-body {
+        height: 96vh;
+    }
+
+    .main-body {
+        margin: 10px 0;
+    }
+
+    .contain {
+        margin: 40px 10px;
+        padding: 15px;
+        font-size: 1.8rem;
+    }
+
+    .contain input{
+        width: 300px;
+    }
+
+    .nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        font-size: 1.5rem;
+    }
+
+    .modal {
+        width: 70%;
+        font-size: 1rem;
+    }
+
+    .modal h2 {
+        position: static;
+        margin-top: 10px;
+    }
+}
