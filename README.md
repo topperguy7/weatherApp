@@ -18,9 +18,9 @@ WeatherApp allows users to:<br>
 • JavaScript (ES6+)
 • OpenWeatherMap API
 <hr>
-WeatherApp/
+WeatherApp/<br>
 │
-├── index.html      # Main structure of the application
-├── style.css       # Styling and responsive design
-└── script.js       # API logic and DOM manipulation
+├── index.html      # Main structure of the application<br>
+├── style.css       # Styling and responsive design<Br>
+└── script.js       # API logic and DOM manipulation<Br>
 <hr>
