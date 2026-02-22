@@ -12,3 +12,10 @@ WeatherApp allows users to:<br>
 • See a weather emoji based on condition<br>
 • Open an animated “About” modal<br>
 --------------------------------------------------------------------------------------------------------------------------------------
+🛠️ Tech Stack
+
+• HTML5
+• CSS3
+• JavaScript (ES6+)
+• OpenWeatherMap API
+<hr>
